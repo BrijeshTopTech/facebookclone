@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f2f5;
+}
+
+.app__body {
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 30px;
+}

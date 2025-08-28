@@ -1,0 +1,130 @@
+.draftPost {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+    width: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 4px 2px 10px #ccc;
+}
+
+.draft_header__top {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.draft_header__top form {
+    background-color: whitesmoke;
+    padding: 5px 0px;
+    border-radius: 20px;
+    flex: 1;
+    margin-left: 10px;
+}
+.draft_header__top input {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+}
+
+
+
+.draft_header__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 1px lightgray;
+    margin-top: 15px;
+}
+
+.draft__options {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.draft__options:hover {
+    background-color: whitesmoke;
+}
+
+.draft__options p {
+    margin-left: 4px;
+}
+
+.modal__popup {
+  position: relative;
+  top: 20%;
+  margin: 0 auto;
+  width: 500px;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.modal__popup__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 10px;
+}
+
+.modal__popup__body {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+} 
+.modal__body__top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text__section textarea {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+
+.modal__body__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.post__type {
+    display: flex;
+    align-items: center;
+}
+
+.modal__popup__footer {
+    padding: 10px;
+}
+
+.post__submit {
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #0866ff;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+}

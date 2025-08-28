@@ -1,0 +1,24 @@
+.sidebar {
+    margin-top: 20px;
+    flex: 0.33;
+    position: sticky;
+    top: 0;
+}
+
+.sidebarItem {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.sidebarItem p {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebarItem:hover {
+    background-color: rgb(212 210 210/31%);
+    cursor: pointer;
+}
